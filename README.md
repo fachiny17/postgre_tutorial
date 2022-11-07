@@ -1,1 +1,1 @@
-# Postgres tutorial work
+# Postgresql tutorial work
