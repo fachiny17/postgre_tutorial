@@ -1,8 +1,8 @@
 create table car (
 	id BIGSERIAL NOT NULL PRIMARY KEY,
 	make VARCHAR(100) NOT NULL,
-	model VARCHAR (100) NOT NULL,
-	price VARCHAR(50) NOT NULL
+	model VARCHAR(100) NOT NULL,
+	price NUMERIC(50) NOT NULL
 );
 insert into car (id, make, model, price) values (1, 'GMC', 'Savana 2500', '$241689.13');
 insert into car (id, make, model, price) values (2, 'Lamborghini', 'Diablo', '$45451.65');
