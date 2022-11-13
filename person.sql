@@ -7,7 +7,7 @@ create table person (
 	date_of_birth DATE NOT NULL,
 	country_of_birth VARCHAR(50)
 );
-insert into person (first_name, last_name, email, gender, date_of_birth, country_of_birth) values ('Giselbert', 'Chisnall', 'gchisnall0@google.co.jp', 'Male', '2022-04-06', 'China');
+insert into person (first_name, last_name, email, gender, date_of_birth, country_of_birth) values ('Leonard', 'Chisnall', 'hello@google.co.jp', 'hello', '2022-04-06', 'China');
 insert into person (first_name, last_name, email, gender, date_of_birth, country_of_birth) values ('Dell', 'Ekless', null, 'Male', '2022-05-15', 'Tanzania');
 insert into person (first_name, last_name, email, gender, date_of_birth, country_of_birth) values ('Hervey', 'Pittem', null, 'Male', '2022-02-05', 'Indonesia');
 insert into person (first_name, last_name, email, gender, date_of_birth, country_of_birth) values ('Conan', 'Castillou', null, 'Male', '2022-06-08', 'China');
